@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 body{
- background: linear-gradient(180deg, #a07ce2, #5d10ed);
+ background: linear-gradient(180deg, #ba9eed, #5d10ed);
  height: 200vh;
- width: 120vw;
  z-index: -2;
+}
+#blur.active{
+    filter: blur(10px);
 }
 
 .img{
@@ -35,19 +37,18 @@ body{
 .titulo{
     color: #bd9ef5;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
     top: 3px;
-    left: 10%;
+    left: 5%;
     font-family: "Playwrite SK", sans-serif;
 }
 .resumo{
     color: #bd9ff6;
-    width: 463px;
-    font-size: 1.5em;
+    width: 385px;
+    font-size: 1.2em;
     position: relative;
     top: 30px;
-    left: 5px;
     text-align: center;
     font-family: "Playwrite SK", sans-serif;
 }
@@ -55,12 +56,86 @@ body{
     border: 1px solid gold;
     position: relative;
     top: 20px;
-    width: 469px;
-    height: 500px;
+    width: 390px;
+    height: 400px;
     left: 1px;
 }
 section {
     position: relative;
     top: 40px;
     width: 425px;
+}
+.ext {
+    display: flex;
+    justify-content: center;
+    
+}
+.ext h2 {
+    font-size: 35px;
+    font-family: "Playwrite SK", sans-serif;
+
+}
+.text {
+    width: 410px;
+    
+}
+.text p {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 550;
+    position: relative;
+    left: 13px;
+}
+.dicas{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.box-image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 15px;
+    gap: 40px;
+}  
+.box-image img {
+    width: 150px;
+    border-radius: 50%;
+
+}
+#aparecer{
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+#aparecer img{
+    border-radius: 50px;
+}
+#aparecer button{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #bea8e7;
+}
+#aparecer button:active{
+    background-color: #966de2;
+   
+}
+#aparecer.ativo{
+    visibility: visible;
+    opacity: 9;
+    transition: 0.5s;
+    
+}
+#aparecer.close {
+    transition: 0.5s;
 }

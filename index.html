@@ -13,47 +13,60 @@
 </head>
 
 <body>
-    <main class="info">
-        <div class="img">
-            <img src="./assets/carol.png" class="icon">
-        </div>
-        <div class="description">
-            <h1 class="titulo">Olá, Seja bem vinda!</h1>
-            <p class="resumo">A extensão de cílios destaca o olhar, dando mas simetria, contorno e realçando seus traços naturais. Além
-                disso, a extensão nos livra de ficar varias horas em frente ao espelho perdendo tempo passando a máscara
-                ou rimel, ou seja, você ja acorda pronta e linda</p>
-        </div>
-    </main>
-    <section>
-        <div>
-            <h2>
-                Extensão de Cílios
-            </h2>
-        </div>
-        <div>
-            <p>
-                Se seus cílios são pouquinhos e pequenos, as extensões são uma alternativa
-                pra você, pois ele permite que você conquiste um cílios longo e bonito.
-                Além disso a extensão te auxilia quando você tem o hábito de ser sempre a
-                atrasada rs,, pois com ele fica mais fácil e além do mais acordar todos os
-                dias pronta!!!! 
-            </p>
-        </div>
-        <div>
-            <ul>
-                <li>Indicado fazer manutenção de 15 à 20 dias</li>
-                <li>Tempo de procedimento: 2 h e meia à 3 horas.</li>
-                <li>Não vim com pressa, pois é um procedimento demorado.</li>
-                <li>Indicado higienizar todos os dias, 1 vez ao dia.</li>
-            </ul>
-        </div>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
+    <div id="blur">
+        <main class="info">
+            <div class="img">
+                <img src="./assets/carol.png" class="icon">
+            </div>
+            <div class="description">
+                <h1 class="titulo">Olá, Seja bem vinda!</h1>
+                <p class="resumo">A extensão de cílios destaca o olhar, dando mas simetria, contorno e realçando seus
+                    traços naturais. Além
+                    disso, a extensão nos livra de ficar varias horas em frente ao espelho perdendo tempo passando a
+                    máscara
+                    ou rimel, ou seja, você ja acorda pronta e linda</p>
+            </div>
+        </main>
+        <section>
+            <div class="ext">
+                <h2>
+                    Extensão de Cílios
+                </h2>
+            </div>
+            <div class="text">
+                <p>
+                    Se seus cílios são pouquinhos e pequenos, as extensões são uma alternativa
+                    pra você, pois ele permite que você conquiste um cílios longo e bonito.
+                    Além disso a extensão te auxilia quando você tem o hábito de ser sempre a
+                    atrasada rs,, pois com ele fica mais fácil e além do mais acordar todos os
+                    dias pronta!!!!
+                </p>
+            </div>
+            <div class="dicas">
+                <ul>
+                    <li>Indicado fazer manutenção de 15 à 20 dias</li>
+                    <li>Tempo de procedimento: 2 h e meia à 3 horas.</li>
+                    <li>Não vim com pressa, pois é um procedimento demorado.</li>
+                    <li>Indicado higienizar todos os dias, 1 vez ao dia.</li>
+                </ul>
+            </div>
+            <div>
+                <div class="box-image">
+                    <img src="./assets/1.png" onclick="toggle()" class="image-1">
+                    <img src="./assets/2.png" onclick="toggle()" class="image-1" id="image-s">
+                </div>
+                <div class="box-image">
+                    <img src="./assets/3.png" height="150px">
+                    <img src="./assets/4.jpg" height="150px">
+                </div>
+            </div>
+    </div>
+    <div id="aparecer">
+        <img src="./assets/1.png" width="250px" id="imgalter">
+        <button class="close" onclick="fechar()">close</button>
+    </div>
     </section>
 </body>
+<script src="./script.js"></script>
 
 </html>
