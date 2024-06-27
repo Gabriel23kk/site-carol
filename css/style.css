@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
- background: linear-gradient(180deg, #ba9eed, #5d10ed);
+ background: linear-gradient(180deg, #c79bf7, #5d10ed);
  height: 300vh;
  z-index: -2;
 }
