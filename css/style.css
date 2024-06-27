@@ -5,7 +5,7 @@
 }
 body{
  background: linear-gradient(180deg, #ba9eed, #5d10ed);
- height: 200vh;
+ height: 300vh;
  z-index: -2;
 }
 #blur.active{
@@ -107,8 +107,8 @@ section {
 }
 #aparecer{
     position: fixed;
-    top: 20%;
-    left: 10%;
+    top: 30%;
+    left: 20%;
     display: flex;
     flex-direction: column;
     gap: 20px;
