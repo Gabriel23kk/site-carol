@@ -1,0 +1,33 @@
+@media screen and (min-width: 428px) and (max-width: 430px)
+{
+    .sakura{
+        position: relative;
+        top: 40em;
+    }
+    .footer-info{
+        position: relative;
+        top: 43em;
+    }
+    .location{
+        position: relative;
+        top: 32em;
+    }
+    .box-price-button{
+        position: relative;
+        top: 28em;
+        left: 3.7em;
+    }
+    .security-box{
+        position: relative;
+        left: 1.8em;
+    }
+    section{
+        position: relative;
+        left: 2em;
+    }
+    .box-location{
+        position: relative;
+        left: 1em;
+        top: 2em;
+    }
+}

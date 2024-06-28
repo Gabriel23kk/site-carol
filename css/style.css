@@ -36,7 +36,7 @@ body{
     border-radius: 10px;
 }
 .titulo{
-    color: #bd9ef5;
+    color: #d0b8fe;
     font-weight: bold;
     font-size: 25px;
     position: relative;
@@ -45,7 +45,7 @@ body{
     font-family: "Playwrite SK", sans-serif;
 }
 .resumo{
-    color: #bd9ff6;
+    color: #d0b8fe;
     width: 350px;
     font-size: 1.1em;
     position: relative;
