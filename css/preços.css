@@ -1,0 +1,148 @@
+
+body{
+    background: linear-gradient(50deg, 	#DDA0DD, #9370DB );
+    overflow: hidden;
+}   
+.box{
+    position: relative;
+    top: 3em;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #7B68EE;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.box-1{
+    display: flex;
+    justify-content: space-between;
+}
+.box-1 h1{
+    position: relative;
+    top: 4px;
+    font-size: 20px;
+}
+.box-1 h2{
+    font-size: 20px;
+    position: relative;
+    right: 10px;
+}
+.box-2{
+    display: flex;
+    justify-content: space-between;
+}
+.box-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 18px;
+    
+}
+.box-desc div {
+    background-color: #ffffff;
+    width: 103%;
+    height: 25px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.box-price{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.box-price div{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    width: 120%;
+    height: 50%;
+    position: relative;
+    right: 22px;
+    padding-left: 8px;
+    font-size: 20px;
+}
+#Manutencion{
+    position: relative;
+    top: 5em;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #7B68EE;
+    height: 28vh;
+    border-radius: 10px;
+}
+#Manutencion-2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#Manutencion-2 h3{
+    font-size: 25px;
+    position: relative;
+    top: px;
+    left: 10px;
+}
+#Manutencion-2 h4{
+    font-size: 25px;
+    position: relative;
+    right: 10px;
+    top: -8px;
+}
+#price{
+    display: flex;
+    justify-content: space-between;
+}
+#des{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    top: -15px;
+}
+#des div{
+    position: relative;
+    left: 10px;
+    background-color: #ffffff;
+    width: 115%;
+    height: 28px;
+    padding-left: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#price-of-des{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    top: -15px;
+}
+#price-of-des div{
+    position: relative;
+    right: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    width: 120%;
+    height: 50%;
+    position: relative;
+    right: 22px;
+    padding-left: 8px;
+    font-size: 20px;
+    
+}
+
+footer{
+    display: flex;
+}
+footer .nuvem1{
+    position: relative;
+    width: 550px;
+    left: -15em;
+    top: 5em;
+}
+footer .nuvem2{
+    position: relative;
+    width: 350px;
+    width: 550px;
+    right: 30em;
+    top: 5em;
+}

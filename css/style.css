@@ -139,3 +139,35 @@ section {
 #aparecer.close {
     transition: 0.5s;
 }
+
+.box-price-button{
+    position: relative;
+    top: 20em;
+    left: 4.5em;
+}
+.price-button button{
+    height: 50px;
+    width: 320px;
+    border-radius: 150px;
+    border: none;
+    font-size: 20px;
+    animation-name:  pulse;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+    background: linear-gradient(25deg , #4b31f2, #dbcef6 );
+    
+}
+.price-button button a{
+    text-decoration: none;
+    color: black;
+}
+@keyframes  pulse {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}

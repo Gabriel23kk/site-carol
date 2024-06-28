@@ -1,7 +1,7 @@
 .security-box{
     display: flex;
     position: relative;
-    top: 8%;
+    top: 6%;
 }
 .tex h3{
     font-size: 28px;
@@ -52,7 +52,7 @@
 
 .exp{
     position: relative;
-    top: 12%;
+    top: 9%;
     display: flex;
 }
 .image-coffe img{
