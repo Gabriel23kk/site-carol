@@ -5,8 +5,9 @@
 }
 body{
  background: linear-gradient(180deg, #c79bf7, #5d10ed);
- height: 300vh;
+ height: 405.3vh;
  z-index: -2;
+ overflow: auto;
 }
 #blur.active{
     filter: blur(10px);
@@ -37,18 +38,19 @@ body{
 .titulo{
     color: #bd9ef5;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
     top: 3px;
-    left: 5%;
+    left: 12%;
     font-family: "Playwrite SK", sans-serif;
 }
 .resumo{
     color: #bd9ff6;
-    width: 385px;
-    font-size: 1.2em;
+    width: 350px;
+    font-size: 1.1em;
     position: relative;
     top: 30px;
+    left: 2%;
     text-align: center;
     font-family: "Playwrite SK", sans-serif;
 }
@@ -56,7 +58,7 @@ body{
     border: 1px solid gold;
     position: relative;
     top: 20px;
-    width: 390px;
+    width: 360px;
     height: 400px;
     left: 1px;
 }
@@ -71,12 +73,14 @@ section {
     
 }
 .ext h2 {
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Playwrite SK", sans-serif;
+    position: relative;
+    right: 0.8em;
 
 }
 .text {
-    width: 410px;
+    width: 365px;
     
 }
 .text p {
@@ -90,8 +94,11 @@ section {
 .dicas{
     display: flex;
     justify-content: center;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 5px;
+    position: relative;
+    right: 1em;
+    
 }
 .box-image{
     display: flex;
@@ -102,6 +109,8 @@ section {
 }  
 .box-image img {
     width: 150px;
+    position: relative;
+    right: 1.5em;
     border-radius: 50%;
 
 }
@@ -143,7 +152,7 @@ section {
 .box-price-button{
     position: relative;
     top: 20em;
-    left: 4.5em;
+    left: 2em;
 }
 .price-button button{
     height: 50px;

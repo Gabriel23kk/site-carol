@@ -1,7 +1,7 @@
 .security-box{
     display: flex;
     position: relative;
-    top: 6%;
+    top: 4%;
 }
 .tex h3{
     font-size: 28px;
@@ -14,12 +14,13 @@
     font-size: 18px;
     left: 5%;
     top: 5px;
-    width: 260px;
+    width: 230px;
     padding-right: 5%;
 }
 .tex {
-    animation: apper 1s;
+    animation: apper 1ms ease-in-out;
     animation-timeline: scroll();
+    animation-range: cover 0% cover 50%;
 }
 @keyframes apper {
     from{
@@ -33,10 +34,11 @@
 }
 .foto img{
     position: relative;
-    right: -10px;
+    right: -4px;
     border-radius: 75px;
-    animation: upper 1s;
+    animation: upper 1ms ease-in-out;
     animation-timeline: scroll();
+    animation-range: cover 0% cover 50%;
 }
 @keyframes upper {
     from{
@@ -52,31 +54,94 @@
 
 .exp{
     position: relative;
-    top: 9%;
+    top: 8%;
     display: flex;
 }
 .image-coffe img{
     border-radius: 75px;
     position: relative;
     left: 8%;
-    animation: apper 5s;
+    top: 3em;
+    animation: apper 10ms;
     animation-timeline: scroll();
+    animation-range: cover 0% cover 70%;
 }
 .text-exp h4{
     font-size: 28px;
     position: relative;
-    left: 18%;
+    
+    left: 15%;
     font-family: "Playwrite SK", sans-serif;
 }
 .text-exp p{
     position: relative;
     font-size: 18px;
-    left: 10%;
+    left: 15%;
     top: 5px;
-    width: 255px;
+    width: 230px;
     padding-left: 1%;
 }
 .text-exp{
-    animation: upper 5s;
+    animation: upper 10ms ease-in-out;
     animation-timeline: scroll();
+    animation-range: cover 0% cover 70%;
+}
+.location{
+    position: relative;
+    top: 24em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.location p {
+    font-size: 33px;
+    margin-bottom: 18px;
+}
+.location img{
+    margin-bottom: 20px;
+}
+.location iframe{
+    border-radius: 50px;
+}
+
+.box-location{
+    margin-top: 20px;
+    display: flex;
+}
+.box-location .location-1{
+    font-size: 22px;
+    margin-left: 35px;
+}
+.box-location img {
+    margin-right: 4em;
+}
+.footer-info{
+    position: relative;
+    top: 25em;
+    background-color: #a88cfc;
+    width: 95vw;
+    left: 0.7em;
+    border-radius: 30px;
+    padding: 3px;
+    padding-top: 5px;
+}
+.footer-info h5{
+    font-size: 25px;
+    margin-left: 3em;
+}
+.footer-info ul li{
+    margin-left: 38px;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+.footer-info ul li a {
+    text-decoration: none;
+    color: rgb(122, 0, 244);
+    cursor: pointer;
+}
+.sakura{
+    z-index: -10;
+    position: relative;
+    top: 8%;
 }
